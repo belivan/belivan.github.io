@@ -1,0 +1,258 @@
+// PAGE COMMON ====================================
+.page-header,
+.post-header {
+  margin-bottom: $spacer;
+}
+
+.post-content,
+.page-content {
+
+  p, ul, ol { margin-bottom: 1.3rem; }
+
+  p+ul { margin-top: -$spacer0; }
+
+  h2 {
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+  }
+
+  h3 {
+    margin-top: $spacer1;
+    margin-bottom: $spacer0;
+    color: $gray;
+  }
+}
+
+@include mq-up(md) {
+  .page-header,
+  .post-header {
+    margin-bottom: $spacer2;
+  }
+
+  .post-content,
+  .page-content {
+    font-size: $fs-md;
+    line-height: $lh-md;
+
+    p, ul, ol { margin-bottom: $spacer1; }
+
+    h2 {
+      margin-top: $spacer4;
+      margin-bottom: $spacer1;
+    }
+
+    h3 {
+      margin-top: $spacer2;
+      margin-bottom: $spacer;
+      color: $gray;
+    }
+  }
+}
+
+// PAGE HOME ====================================
+
+.select-hide,
+.select-show {
+  background-color: $gray-lighter;
+  color: $gray-lighter;
+  white-space: nowrap;
+  text-decoration: line-through;
+}
+
+.select-show {
+  color: #fff;
+  background-color: $gray-dark;
+}
+
+.project-img {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  width: 95%;
+  margin: 2% 0;
+}
+
+.news-item img {
+  border-radius: 2%;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin: 2% 0;
+}
+
+// PAGE ARTICLES & POST ====================================
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: $spacer2;
+
+  .post-title {
+    color: $brand-color;
+    margin-bottom: $spacer0;
+  }
+
+  .post {
+    margin-bottom: $spacer2;
+  }
+}
+
+.post-link,
+.post-link:hover,
+.post-link:focus {
+  text-decoration: none;
+  color: $body-color;
+}
+
+.post-date {
+  display: block;
+  font-family: $font-heading;
+  color: $text-muted;
+  margin: -$spacer0 0 $spacer;
+  font-size: .875rem;
+}
+
+// Reset the responsive content
+p.post-desc {
+  margin-bottom: $spacer;
+  margin-top: -$spacer0;
+}
+
+// PAGE POST - BAR ------------------
+.post .post-header::after,
+.post-link::after {
+  content: '';
+  display: block;
+  width: $spacer4;
+  height: 5px;
+  background: $brand-light-color;
+}
+
+.post-link::after {
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  transition: .5s all cubic-bezier(.5, -.2, .25, 1.2);
+}
+
+.post-link:focus::after,
+.post-link:hover::after {
+  -webkit-transform: scaleX(3);
+  transform: scaleX(3);
+}
+// PAGE Research ====================================
+
+.pub_img img {
+  margin: 0rem 1rem 0 0;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+.teaching_img img {
+  margin: 0rem 1rem 0 0;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+// PAGE WORK & PROJECTS ====================================
+
+.project {
+  margin-right: $spacer;
+  font-size: 1rem;
+}
+
+.project-title {
+  margin-bottom: $spacer1;
+
+  a {
+    font-weight: bold;
+    border-bottom: 5px solid $brand-light-color;
+    padding-bottom: $spacer0;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      border-bottom-color: $brand-color;
+    }
+  }
+}
+
+@include mq-up(md) {
+  .projects {
+    margin-top: $spacer2;
+  }
+
+  .project-title {
+    margin-bottom: $spacer2;
+  }
+}
+
+// PAGE ABOUT ====================================
+
+h2.page-subtitle {
+  font-weight: 100;
+  color: #999;
+}
+h2.page-subtitle a  {
+  font-size:75%;
+}
+
+.lead-text {
+  padding-left: 2em !important;
+}
+.lead-about {
+  color: $dark-blue;
+}
+
+.about {
+  background: $light-yellow;
+  border-radius: 5px;
+  padding: 0.25em 1em !important;
+
+}
+.about h3 {
+  font-weight: 100;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.news-about {
+}
+.news-about div {
+  margin-left: 0em !important;
+}
+.news-about h3 {
+  margin-top: 0.5em !important;
+}
+.news {
+  border-radius: 5px;
+}
+
+.site-profile {
+  border-radius: 5%;
+}
+
+div.profile-pic p {
+  margin-bottom: 1em !important;
+}
+
+// Specific Pages
+
+.paper_info .paper_title {
+  font-size: 200%;
+}
+
+.paper_info .paper_title span {
+  font-weight: 800;
+}
+.paper_info .paper_authors {
+  font-size: 125%;
+  color: $dark-blue;
+  display:block;
+}
+.paper_info .paper_venue {
+  font-size: 110%;
+  display:block;
+}
+
+.paper_links h2 {
+  margin: 0.25em 0 0.5em 0;
+}

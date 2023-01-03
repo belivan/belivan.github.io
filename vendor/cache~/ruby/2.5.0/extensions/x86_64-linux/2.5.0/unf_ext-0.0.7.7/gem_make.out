@@ -1,0 +1,16 @@
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/usr/bin/ruby2.5 -r ./siteconf20201009-18367-i9xyyu.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20201009-18367-1t758g8

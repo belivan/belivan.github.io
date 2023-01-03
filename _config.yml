@@ -1,0 +1,70 @@
+# The main config file for your Jekyll template
+
+# Site settings
+title: Anton Egorov              # used for the html title of every page
+desc: >
+  Personal website of Anton Egorov.
+
+url:     # put your website hosting url here
+baseurl: ''                 # the subpath of your site, e.g. /blog
+permalink: /:year/:title/   # how should we display posts url
+
+# Meta settings
+email: antegorov3@gmail.com
+author: Anton Egorov
+# github: [metadata]
+github_username: Antonskoltech
+github_source: jackal
+
+# Put your ga tracking code below
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Pagination settings
+paginate: 5                           # number of posts to show per page
+paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
+
+# Navigation settings
+# Used to define the navigation menu items
+# > Title is the tile of the navigation item, url the url and desc is the tooltip
+navigation:
+  - title: Publications 
+    url: /research/
+    desc: My publications
+  - title: Projects
+    url: /work/
+    desc: My projects
+  - title: Teaching
+    url: /teaching/
+    desc: Courses I've TA'd and taught
+  - title: Work Experience
+    url: /projects/
+    desc: My professional experience 
+  - title: <i class='fa fa-file-text'></i> CV
+    url: /assets/pdf/CV.pdf
+
+# Used by Jekyll to recognize what is a post and what is a page
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+
+# Markdown parser settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false          # you can change this if you feel like it
+  parse_block_html: true    # allow parsing html inside markdown
+
+# Build settings
+include:
+  - _pages                  # all your pages can be put inside pages (except articles)
+exclude:
+  - README.md
+  - vendor
+plugins:
+  - jekyll-paginate
+  - jekyll-font-awesome-sass
+

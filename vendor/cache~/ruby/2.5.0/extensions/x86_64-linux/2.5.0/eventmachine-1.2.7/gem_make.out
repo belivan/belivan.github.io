@@ -1,0 +1,16 @@
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.5 -r ./siteconf20201009-18367-cvz89x.rb extconf.rb
+creating Makefile
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /My_folder/my_website/anton.com/vendor/cache~/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20201009-18367-1bhybpm

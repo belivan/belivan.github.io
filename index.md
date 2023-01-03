@@ -8,7 +8,7 @@ subtitle: Robotics enthusiast
 <div class="pretty-links">
 <div class="grid">
 <div class="unit golden-small profile-pic">
-<img class='site-profile' src="/assets/img/img_update.jpg">
+<img class='site-profile' src="/assets/img/image.jpg">
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">

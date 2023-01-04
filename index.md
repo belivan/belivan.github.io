@@ -12,7 +12,7 @@ subtitle: Engineering enthusiast
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">
-Hello! My name is Anton. I'm a researcher in autonomous robotics with a particular interest in computer vision (3D point cloud semantic segmentation) and deep learning for robust 3D perception. I am also broadly interested in SLAM.
+Hello! My name is Anton. I'm student at GWU and want to be like Anton Egorov who is a researcher in autonomous robotics with a particular interest in computer vision (3D point cloud semantic segmentation) and deep learning for robust 3D perception. I am also broadly interested in SLAM.
 
 I am currently a Data Scientist (ML Matching Team) at [OZON](https://corp.ozon.com/) Technology in Russia. Prior to this role, I served as Middle Software Developer (Localization and Mapping (SLAM) team) in Self-Driving Group in the same company. I have been working on developing of algorithms that underlie SLAM.
 

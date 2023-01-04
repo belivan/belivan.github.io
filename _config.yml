@@ -3,17 +3,17 @@
 # Site settings
 title: Anton Egorov              # used for the html title of every page
 desc: >
-  Personal website of Anton Egorov.
+  Personal website of Anton Yanovich.
 
 url:     # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
 
 # Meta settings
-email: antegorov3@gmail.com
-author: Anton Egorov
+email: anton.yanovich@hotmail.com
+author: Anton Yanovich
 # github: [metadata]
-github_username: Antonskoltech
+github_username: belivan
 github_source: jackal
 
 # Put your ga tracking code below

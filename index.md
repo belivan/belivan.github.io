@@ -2,7 +2,7 @@
 layout: page
 title: Anton Yanovich
 head_title: Home
-subtitle: Robotics enthusiast
+subtitle: Engineering enthusiast
 ---
 
 <div class="pretty-links">

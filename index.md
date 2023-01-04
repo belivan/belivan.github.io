@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anton Egorov
+title: Anton Yanovich
 head_title: Home
 subtitle: Robotics enthusiast
 ---

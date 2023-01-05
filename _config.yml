@@ -1,7 +1,7 @@
 # The main config file for your Jekyll template
 
 # Site settings
-title: Anton Egorov              # used for the html title of every page
+title: Anton Yanovich              # used for the html title of every page
 desc: >
   Personal website of Anton Yanovich.
 
@@ -28,16 +28,16 @@ paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
   - title: Projects
-    url: /work/
+    url: /projects/
     desc: My Projects
   - title: Experience
-    url: /projects/
+    url: /work/
     desc: My Professional Experience
   - title: Other
-    url: /other/ # FIX 
+    url: /other/
     desc: Miscellaneous
   - title: <i class='fa fa-file-text'></i> Resume 
-    url: /assets/pdf/CV.pdf # Add my resume!!!!!
+    url: /assets/pdf/Resume.pdf
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:

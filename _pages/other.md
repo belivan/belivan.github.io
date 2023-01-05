@@ -14,7 +14,7 @@ permalink: /other/
 ![ESC103](/assets/img/photos/garage.HEIC)
 </div>
 <div class="unit two-thirds">
-### Carpentry 
+<h3> <a href="/carpentry/"> Carpentry </a></h3>
 <!-- just write text here a-->
 </div>
 </div>
@@ -24,7 +24,7 @@ permalink: /other/
 ![ESC103](/assets/img/photos/photo3.jpg)
 </div>
 <div class="unit two-thirds">
-### Photography  
+<h3> <a href="/photography/"> Photography </a></h3>  
 
 </div>
 </div>
@@ -34,7 +34,7 @@ permalink: /other/
 ![ESC103](/assets/img/photos/art1.JPG)
 </div>
 <div class="unit two-thirds">
-### Art  
+<h3> <a href="/art/"> Art </a></h3>
 
 </div>
 </div>
@@ -44,7 +44,7 @@ permalink: /other/
 ![ESC103](/assets/img/photos/firewood.JPG)
 </div>
 <div class="unit two-thirds">
-### Small Business  
+<h3> Small Business </h3> 
 
 </div>
 </div>

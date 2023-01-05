@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project
-permalink: projects/sample-project/
+permalink: other/carpentry/
 subtitle: Sample project
 ---
 

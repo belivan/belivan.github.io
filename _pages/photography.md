@@ -2,55 +2,193 @@
 layout: page
 title: Project
 permalink: other/photography/
-subtitle: Sample project
+subtitle: Photography Page
 ---
 
-## Liber orbes sternentemque nunc mortalia rotae supplex
+<!-- Container for the image gallery -->
+<div class="container">
 
-Lorem **markdownum fugiens** lanigerosve [genus doctis
-sustinet](http://violenta.com/contraria) flamma tecti, perdiderat. Alcides et
-manu! Aquarum exclamat adulter tuos; et fuerit has levi gurgite movit, candentia
-cava pharetramque aures Cythereiadasque turbant utinam erat.
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 7</div>
+      <img src="/assets/img/photos/photo1.jpg" style="width:100%">
+  </div>
 
-- Prementem passibus ab docuisse laborem recingitur videt
-- Debilis velle
-- Modo per pignora coiere et nec comitum
-- Nymphe veteris suscitat colonos
+  <div class="mySlides">
+    <div class="numbertext">2 / 7</div>
+      <img src="/assets/img/photos/photo2.jpg" style="width:100%">
+  </div>
 
-Dextram post solido feres, Leuconoe! Est tu est solito cauda, unum quae
-multifori, herbas. Albas vestis cognoscit in longi umero effugere quam constitit
-Delo.
+  <div class="mySlides">
+    <div class="numbertext">3 / 7</div>
+      <img src="/assets/img/photos/photo3.jpg" style="width:100%">
+  </div>
 
-    var impact = boxPacket;
-    mainframe_storage = digital_key_winsock;
-    if (scanBoot) {
-        mapIt(lagPumProgramming, 4);
-        technologyAssociationFile = -4;
-    }
-    leak_captcha_disk.scroll = e(denial_bridge_peripheral(root(server_c, -4),
-            raid_keywords + mnemonicSystem, sampling_offline_switch),
-            hexadecimal);
-    if (3 - rawPciFat - sanCore / 1 * art_dpi_title + losslessProcess) {
-        processor = 4 + bsod_led;
-        responsiveMamp = eJfs(typeface_name);
-    }
+  <div class="mySlides">
+    <div class="numbertext">4 / 7</div>
+      <img src="/assets/img/photos/photo4.jpg" style="width:100%">
+  </div>
 
-## Haec damnare consulat
+  <div class="mySlides">
+    <div class="numbertext">5 / 7</div>
+      <img src="/assets/img/photos/photo5.jpg" style="width:100%">
+  </div>
 
-Mea speciem facta postquam quae ab catulo, bracchia nepotis: est. Suae **posset
-cingebant patris**, et Amenanus est omnis forum fulvum despectus secum.
+  <div class="mySlides">
+    <div class="numbertext">6 / 7</div>
+      <img src="/assets/img/photos/photo6.jpg" style="width:100%">
+  </div>
 
-1. Sic Aiax et ab vota vultum
-2. Equo nec narratur
-3. Est si exstabant ratos mea horret fluit
-4. Dextra fato tremor tendite melioris in tibi
-5. Oresteae quae
+  <div class="mySlides">
+    <div class="numbertext">7 / 7</div>
+      <img src="/assets/img/photos/photo7.jpg" style="width:100%">
+  </div>
 
-Creatis imago; unda quin, *venerisque puppe* tabuerit indotata piceumque siccis
-spatiosumque iuvenes? Pascere quid quater prece et Serpens ibi nam
-[partes](http://si-super.org/): cupido insula protinus. Non [aquarum nec
-esset](http://fines.org/fit-sociare.html) postquam partimque quondam esse, aura.
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-Habendum repperit quod; aera nota sed. Ora quae diu potuere sed multi pectore:
-quo te induerat ab haut ope. In nemus ipse cornua quoque, incandescit fecere
-sequens mundo mento erravit nunc simul villis erat ac
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/assets/img/photos/photo7.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Seven columns side by side */
+.column {
+  float: left;
+  width: 14.29%;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

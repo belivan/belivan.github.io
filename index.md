@@ -8,7 +8,7 @@ subtitle: Engineering Enthusiast
 <div class="pretty-links">
 <div class="grid">
 <div class="unit golden-small profile-pic">
-<img class='site-profile' src="/assets/img/image.jpg">
+<img class='site-profile' src="/assets/img/anton_beach.jpg">
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">

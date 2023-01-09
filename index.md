@@ -12,7 +12,12 @@ subtitle: Engineering Enthusiast
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">
-Hello! My name is Anton. I'm student at GWU....
+Hello, my name is Anton! I am a mechanical engineering and business student at George Washington University (GWU) in Washington, DC. I am from Minsk, Belarus and live in Pittsburgh, PA! I am an undergraduate student with broad interests and a diverse skillset. As a student, I have interests in mechatronics, controls, and robotics. I aspire to one day work in the automotive sector to develop next generation vehicles for a cleaner and safer world. I am especially motivated by subjects such as energy and autonomous systems. I am considering continuing my education by pursuing a master’s degree with a focus on dynamics and control systems. Aside from deep technical passion, I have been intrigued by topics such as innovation and product management.
+
+In May 2023, I will be graduating with a B.S. in Mechanical Engineering and Minor in Business. I have taken coursework across various disciplines under the mechanical engineering umbrella, including biomechanics and robotics. Additionally, I have had an opportunity to take courses at GWU’s Business School covering financial, strategic, and managerial aspects of business operations.
+
+Among my experiences, for the last two years, I have been privileged working in the GWU BioFluid Dynamics Laboratory as a research assistant. In addition, I have worked with a start-up Drone Point Solutions as a project intern. Moreover, I am collaborating with a team of interdisciplinary engineering students on a Capstone project.
+
 
 <!-- and want to be like Anton Egorov who is a researcher in autonomous robotics with a particular interest in computer vision (3D point cloud semantic segmentation) and deep learning for robust 3D perception. I am also broadly interested in SLAM.
 

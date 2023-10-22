@@ -12,7 +12,7 @@ subtitle: Engineering Enthusiast
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">
-Hello, my name is Anton! I am a mechanical engineering at Carnegie Mellon University (CMU). I am from Minsk, Belarus, and have grown up in Pittsburgh, PA. I am a graduate student with broad interests and a diverse skill set. I have an interest in various subjects ranging from robotics to energy. I am pursuing a master’s degree with a focus on control systems and robotics. Aside from my deep technical passion, I have been intrigued by entrepreneurship, innovation and product management. I aspire to one day work in the automotive or aerospace sector to develop next-generation transportation for a cleaner and safer world.
+Hello, my name is Anton! I am a mechanical engineering at <a href="https://www.cmu.edu/">Carnegie Mellon University (CMU)</a>. I am from Minsk, Belarus, and have grown up in Pittsburgh, PA. I am a graduate student with broad interests and a diverse skill set. I have an interest in various subjects ranging from robotics to energy. I am pursuing a master’s degree with a focus on control systems and robotics. Aside from my deep technical passion, I have been intrigued by entrepreneurship, innovation and product management. I aspire to one day work in the automotive or aerospace sector to develop next-generation transportation for a cleaner and safer world.
 
 In May 2024, I will be graduating with a M.S. in Mechanical Engineering from CMU. I plan to explore and currently taking coursework on topics including Modern Control Theory, AI/ML, and Computer Vision. 
 

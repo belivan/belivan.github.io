@@ -22,9 +22,6 @@ subtitle: Engineering Enthusiast
 <li>Business</li>
 <li>Art</li>
 </ul>
-</div>
-</div>
-</div>
 <div class="unit golden-large">
 <div class="lead lead-about">
 Hello, I'm Anton Yanovich, and I am currently pursuing my <strong>Master of Science in Mechanical Engineering</strong> at Carnegie Mellon University (CMU), specializing in robotics and automation. Following my undergraduate studies in <strong>Mechanical Engineering and Business</strong> at George Washington University, my academic and professional journey has now led me to delve deeper into the fields of robotics and machine learning.
@@ -44,3 +41,9 @@ My Master's research work was based at [Biorobotics Lab](http://biorobotics.ri.c
 a-->
 
 </div>
+</div>
+</div>
+</div>
+</div>
+
+

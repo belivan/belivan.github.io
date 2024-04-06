@@ -8,13 +8,28 @@ subtitle: Engineering Enthusiast
 <div class="pretty-links">
 <div class="grid">
 <div class="unit golden-small profile-pic">
-<img class='site-profile' src="/assets/img/anton.JPG">
+    <!-- Profile Image -->
+    <img class='site-profile' src="/assets/img/anton.JPG">
+    <!-- Interests Box -->
+    <div class="interests-box">
+      <h3>Interests and Hobbies</h3>
+      <ul>
+        <li>Robotics</li>
+        <li>Architecture</li>
+        <li>Photography</li>
+        <li>Design</li>
+        <li>Carpentry</li>
+        <li>Business</li>
+        <li>Art</li>
+      </ul>
+    </div>
+  </div>
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">
-Hello, I'm Anton Yanovich, and I am currently pursuing my Master of Science in Mechanical Engineering at Carnegie Mellon University (CMU), specializing in robotics and automation. Following my undergraduate studies in Mechanical Engineering and Business at George Washington University, my academic and professional journey has now led me to delve deeper into the fields of robotics and machine learning.
+Hello, I'm Anton Yanovich, and I am currently pursuing my <strong>Master of Science in Mechanical Engineering</strong> at Carnegie Mellon University (CMU), specializing in robotics and automation. Following my undergraduate studies in <strong>Mechanical Engineering and Business</strong> at George Washington University, my academic and professional journey has now led me to delve deeper into the fields of robotics and machine learning.
 
-In May 2024, I am set to graduate from CMU with advanced knowledge and practical experience gained through a rigorous curriculum. Moreover, I am currently working as a Research Assistant at [AirLab](https://theairlab.org/), exploring the navigation of [autonomous all-terrain vehicles](https://theairlab.org/offroad/). My studies and experiences have equipped me to apply my expertise in robotics and automation to a wide range of industries. I am enthusiastic about leveraging my skills to solve diverse and complex problems. The versatility of robotics and its transformative potential across various sectors is what drives my personal and professional aspirations.
+In May 2024, I am set to graduate from CMU with advanced knowledge and practical experience gained through extensive project and research experience. I am currently working as a Research Assistant at [AirLab](https://theairlab.org/), exploring the navigation of [autonomous all-terrain vehicles](https://theairlab.org/offroad/). My research involves developing and implementing control algorithms, thermal imaging, and generative models. My studies and experiences have equipped me to apply my expertise in robotics and automation to a wide range of industries. I am enthusiastic about solving diverse and complex problems. The versatility of robotics and its transformative potential across various sectors is what drives my personal and professional aspirations.
 
 
 <!-- and want to be like Anton Egorov who is a researcher in autonomous robotics with a particular interest in computer vision (3D point cloud semantic segmentation) and deep learning for robust 3D perception. I am also broadly interested in SLAM.
@@ -30,5 +45,29 @@ a-->
 
 </div>
 
-</div>
+<style>
+.interests-box {
+background-color: #f5f5f5;
+border: 1px solid #e1e1e1;
+padding: 15px;
+margin-top: 20px; /* Adjust as necessary to align with the bottom of the profile picture */
+}
 
+.interests-box h3 {
+margin-top: 0;
+}
+
+.interests-box ul {
+list-style-type: none;
+padding: 0;
+}
+
+.interests-box ul li {
+display: inline-block;
+background: #e9e9e9;
+border: 1px solid #d1d1d1;
+padding: 5px 10px;
+margin: 2px;
+border-radius: 4px;
+font-size: 0.9em;
+}

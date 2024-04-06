@@ -33,9 +33,9 @@ navigation:
   - title: Experience
     url: /work/
     desc: My Professional Experience
-  - title: Other
-    url: /other/
-    desc: Miscellaneous
+  # - title: Other
+  #   url: /other/
+  #   desc: Miscellaneous
   - title: <i class='fa fa-file-text'> </i> Resume 
     url: /assets/pdf/Resume2024.pdf
 

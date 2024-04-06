@@ -65,6 +65,8 @@
 }
 
 .project-img {
+  max-width: 100%; /* Ensures image is never larger than its container */
+  height: auto;
   border: 1px solid #ccc;
   border-radius: 2%;
   width: 95%;

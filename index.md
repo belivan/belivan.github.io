@@ -8,22 +8,22 @@ subtitle: Engineering Enthusiast
 <div class="pretty-links">
 <div class="grid">
 <div class="unit golden-small profile-pic">
-    <!-- Profile Image -->
-    <img class='site-profile' src="/assets/img/anton.JPG">
-    <!-- Interests Box -->
-    <div class="interests-box">
-      <h3>Interests and Hobbies</h3>
-      <ul>
-        <li>Robotics</li>
-        <li>Architecture</li>
-        <li>Photography</li>
-        <li>Design</li>
-        <li>Carpentry</li>
-        <li>Business</li>
-        <li>Art</li>
-      </ul>
-    </div>
-  </div>
+<!-- Profile Image -->
+<img class='site-profile' src="/assets/img/anton.JPG">
+<!-- Interests Box -->
+<div class="interests-box">
+<h3>Interests and Hobbies</h3>
+<ul>
+<li>Robotics</li>
+<li>Architecture</li>
+<li>Photography</li>
+<li>Design</li>
+<li>Carpentry</li>
+<li>Business</li>
+<li>Art</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="unit golden-large">
 <div class="lead lead-about">

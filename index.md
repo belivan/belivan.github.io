@@ -2,7 +2,7 @@
 layout: page
 title: Anton Yanovich
 head_title: Home
-subtitle: Engineering Enthusiast
+subtitle: Engineering and Robotics Enthusiast
 ---
 
 <div class="pretty-links">
@@ -28,7 +28,7 @@ subtitle: Engineering Enthusiast
 <div class="lead lead-about">
 Hello, I'm Anton Yanovich, and I am currently pursuing my <strong>Master of Science in Mechanical Engineering</strong> at Carnegie Mellon University (CMU), specializing in <strong>Robotics and Automation</strong>. Following my undergraduate studies in <strong>Mechanical Engineering, Bachelor of Science with a Business Minor</strong> at George Washington University, my academic and professional journey has now led me to delve deeper into the fields of robotics and machine learning.
 
-In May 2024, I am set to graduate from CMU with advanced knowledge and practical experience gained through extensive project and research experience. I am currently working as a Research Assistant at [AirLab](https://theairlab.org/), exploring the navigation of [autonomous all-terrain vehicles](https://theairlab.org/offroad/). My research involves developing and implementing control algorithms, thermal imaging, and generative models. My studies and experiences have equipped me to apply my expertise in robotics and automation to a wide range of industries. I am enthusiastic about solving diverse and complex problems. The versatility of robotics and its transformative potential across various sectors is what drives my personal and professional aspirations.
+In May 2024, I am set to graduate from CMU with advanced knowledge and practical experience gained through extensive project and research experience. I am currently working as a Research Assistant at [AirLab](https://theairlab.org/) (Robotics Institute, Carnegie Mellon University), exploring the navigation of [autonomous all-terrain vehicles](https://theairlab.org/offroad/). My research involves developing and implementing control algorithms, thermal imaging, and generative models. My studies and experiences have equipped me to apply my expertise in robotics and automation to a wide range of industries. I am enthusiastic about solving diverse and complex problems. The versatility of robotics and its transformative potential across various sectors is what drives my personal and professional aspirations.
 
 
 <!-- and want to be like Anton Egorov who is a researcher in autonomous robotics with a particular interest in computer vision (3D point cloud semantic segmentation) and deep learning for robust 3D perception. I am also broadly interested in SLAM.

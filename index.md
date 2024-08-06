@@ -27,7 +27,7 @@ subtitle: Engineering and Robotics Enthusiast
 <div class="unit golden-large">
 <div class="lead lead-about">
 Hello, I’m Anton Yanovich, and I recently completed my Master of Science in Mechanical Engineering at Carnegie Mellon University (CMU), specializing in Robotics and Automation. Following my undergraduate studies in Mechanical Engineering, Bachelor of Science with a Business Minor at George Washington University, my academic and professional journey has now led me to delve deeper into the fields of robotics and machine learning.
-
+  
 In May 2024, I graduated from CMU with advanced knowledge and practical experience gained through extensive project and research experience. I am currently working as a Research Assistant at AirLab (Robotics Institute, Carnegie Mellon University), exploring the navigation of autonomous all-terrain vehicles. My research involves developing and implementing control algorithms, thermal imaging, and generative models.
 
 I am now looking for my next professional engagement in the field of robotics and machine learning. My studies and experiences have equipped me to apply my expertise in robotics and automation to a wide range of industries. I am enthusiastic about solving diverse and complex problems. The versatility of robotics and its transformative potential across various sectors is what drives my personal and professional aspirations.
